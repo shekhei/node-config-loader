@@ -1,4 +1,4 @@
-import Config from "../index.js";
+import Config from "../src/index.js";
 import {expect} from "chai";
 import mkdirp from "mkdirp";
 import ncp from "ncp";
@@ -8,6 +8,7 @@ describe("loading config", function(){
     var configs;
     var dir = "/tmp/nodeConfigLoaderTest"+Date.now();
     before(function(done){
+        this.timeout(50000);
         mkdirp(dir, (err) => {
             if ( err ) {
                 return done(err);

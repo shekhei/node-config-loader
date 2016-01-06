@@ -1,4 +1,4 @@
-import Config from "../index.js";
+import Config from "../src/index.js";
 import {expect} from "chai";
 import mkdirp from "mkdirp";
 import ncp from "ncp";

@@ -3,7 +3,7 @@ import Promise from "bluebird";
 import fs from "fs";
 import glob from "glob";
 import bunyan from "bunyan";
-import FilesReader from "./src/fileReader.js"
+import FilesReader from "./fileReader.js"
 import path from "path";
 import yaml from "js-yaml";
 import _ from "lodash";
