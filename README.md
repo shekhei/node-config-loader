@@ -22,7 +22,7 @@ import Configurer from "config-loader";
 
 Configurer.load("./config").then((configurer) => {
   console.log(configurer.configs.config.some) // config
-  console.log(configurer.configs.folder.some) // json
+  console.log(configurer.configs.folder.config.some) // json
 });
 ```
 
