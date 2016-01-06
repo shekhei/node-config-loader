@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://www.github.com/shekhei/nodeConfigLoader"
+    "url": "https://www.github.com/shekhei/node-config-loader"
   },
   "keywords": [
     "config",
