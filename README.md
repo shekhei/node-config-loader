@@ -1,8 +1,12 @@
-#node-config-loader
+#dir-config-loader
 
 This is a simple config loader that loads all the yml and json files from a folder and outputs into a structure, and reloads on SIGHUP signal
 
 ##Usage
+
+```
+npm install --save dir-config-loader
+```
 
 For example, you have the following folder structure
 
@@ -18,7 +22,7 @@ config/folder/config.json
 ```
 
 ```js
-import Configurer from "config-loader";
+import Configurer from "dir-config-loader";
 
 Configurer.load("./config").then((configurer) => {
   console.log(configurer.configs.config.some) // config
