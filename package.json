@@ -1,5 +1,5 @@
 {
-  "name": "config-loader",
+  "name": "dir-config-loader",
   "version": "0.0.1",
   "description": "Loading yaml and json config files under a config, place them in namespaces, and listens on SIGHUP for reloading",
   "main": "lib/index.js",
